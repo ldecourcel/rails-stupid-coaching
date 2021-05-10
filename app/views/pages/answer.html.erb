@@ -1,0 +1,21 @@
+<div class="dialogue">
+  <div id="you">
+    <%= "#{params["answer"]}"%>
+    <br>
+    <%= "- You"%>
+  </div>
+<br>
+<br>
+<% if params["answer"].include?("?") %>
+<%="Silly question, get dressed and go to work!" %>
+<% elsif params["answer"] == "I am going to work" %>
+<%="Great!"%>
+<% else %>
+<%="I don't care, get dressed and go to work!"%>
+<% end %>
+<br>
+<%= "- Your Coach"%>
+</div>
+
+<button class="btn"><%= link_to "Ask a new question", ask_path %></button>
+

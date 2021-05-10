@@ -1,0 +1,68 @@
+ $gray: #F4F4F4;
+
+ body {
+   background: $gray; // Using this variable
+   font-family:  Helvetica, Arial, sans-serif;
+ }
+
+ .banner {
+   h1 {
+     font-size: 50px;
+   }
+   h2 {
+     font-weight: lighter;
+   }
+ }
+
+ a {
+   color: grey;
+   &:hover {
+     color: black;
+   }
+ }
+
+ .dialogue {
+  //  border: 1px lightblue solid;
+  //  border-radius: 4px;
+   padding: 8px;
+   background-color: white;
+ }
+
+ .btn {
+
+   margin: 5px 5px 5px 0px;
+   border: 1px lightblue solid;
+   border-radius: 4px;
+   padding: 8px;
+   background-color: rgb(255, 255, 255);
+   color: rgb(10, 91, 241);
+   a {
+     text-decoration: none;
+     color: rgb(10, 91, 241);
+   }
+ }
+
+  #submit {
+    background-color: #347AB7;
+    border-radius: 4px;
+    color: white;
+    border: 0px;
+    padding: 8px;
+    font-size: 20px;
+    margin: 0px;
+  }
+
+  #submit:hover {
+    background-color: #78b9f1;
+  }
+
+  #answer {
+    padding: 8px;
+    margin: 0px;
+    font-size: 17px;
+  }
+
+  #you {
+    border-width: 0px 0px 0px 10px;
+    border-color: rgb(80, 80, 80);
+  }
